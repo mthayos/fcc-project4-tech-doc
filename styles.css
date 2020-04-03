@@ -1,0 +1,77 @@
+#main-doc {
+    height: 1000px;
+    width: 100%;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    flex-direction: row;
+}
+
+#navbar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color:silver;
+    color: black;
+}
+
+#navbar a {
+    color:  rgb(75, 75, 75);
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#navbar a.active {
+    color: rgb(255, 255, 255);
+}
+
+#nav-link-container {
+    height: 50px;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   padding-top: 5px;
+}
+
+
+#section-container {
+    width: 100%;
+    height: 50px;
+    margin-left: 255px;
+    padding: 15px;
+}
+
+.main-section {
+    min-height: 300px;
+}
+
+.main-section header {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.tat-quote {
+    margin: 20px 60px 20px 60px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #main-doc {
+      background-color: rgb(147, 255, 174);
+    }
+  }
